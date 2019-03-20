@@ -236,7 +236,7 @@
 		}
     
         .cancleBtn {
-            margin: 0.2rem 0.3rem 0 0;
+            margin: 0.1rem 0.3rem 0 0;
             padding: 0 0.2rem;
             height: 0.7rem;
             border: none;

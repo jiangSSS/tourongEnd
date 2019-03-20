@@ -61,8 +61,8 @@
                             <div class="fll">
                                 <img :src="$url + item.imgPaths" alt="" class="imgList">
                             </div>
-                            <div class="nums fll">
-                                <div class="titleBox">
+                            <div class="nums flr">
+                                <div class="titleBox titleImg">
                                     <div class="messageTitle">{{item.title}}</div>
                                 </div>
                                 <div class="newsDesc">
@@ -74,11 +74,11 @@
                     </div>
                       <div v-else class="projectBox">
                         <div class="clearfix rows">
-                            <div class="fll">
+                            <div class="fll tc">
                                 <img :src="$url + item.imgPaths" alt="" class="imgList">
                             </div>
                             <div class="nums fll">
-                                <div class="titleBox">
+                                <div class="titleBox titleImg">
                                     <div class="messageTitle">{{item.title}}</div>
                                 </div>
                                 <div class="newsDesc" v-html="item.content">
@@ -101,7 +101,7 @@
                 <router-link :to="{name:'activityDetail',query:{id:item.resourceId}}">
                     <div class="projectBox">
                         <div class="clearfix rows">
-                            <div class="fll">
+                            <div class="fll tc">
                                 <img :src="$url + item.imgPaths" alt="" class="imgList">
                             </div>
                             <div class="nums fll">
@@ -215,7 +215,7 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         max-width: 7.5rem;
-		line-height: 1.2
+		line-height: 1.8
     }
 
     .newsDesc {
@@ -227,7 +227,8 @@
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
-        max-height: 1.7rem
+        max-height: 1.7rem;
+		width: 7.5rem
 
     }
 
@@ -242,8 +243,6 @@
     }
 
     .imgList {
-        width: 2.25rem;
-        height: 1.5rem;
-        margin-left: .3rem
+        width: 90%;
     }
 </style>
