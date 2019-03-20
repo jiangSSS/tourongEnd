@@ -119,6 +119,9 @@
         background: #fff;
         padding: .2rem
     }
+	.activityMessage div{
+		line-height: 1.4
+	}
 
     .activityMessage div span:nth-child(1) {
         font-size: .3rem;

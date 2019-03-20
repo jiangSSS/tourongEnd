@@ -126,5 +126,7 @@
             border-radius: 100%;
 			display: inline-block;
 			padding: 0.03rem;
+			width: .4rem;
+			height: .4rem
         }
 </style>

@@ -88,7 +88,7 @@
         color: #fff;
         position: absolute;
         display: inline-block;
-        top: .55rem;
+        top: .65rem;
         left: .6rem
     }
 

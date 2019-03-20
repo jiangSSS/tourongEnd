@@ -454,7 +454,7 @@
         .detaila {
             background: #fff;
             padding: .2rem 0;
-            border-bottom: 1px solid #f3f5f7;
+            // border-bottom: 1px solid #f3f5f7;
             .peojectTitle {
                 border-left: 3px solid #005982; // margin: 0 .3rem;
                 padding-left: .2rem;
@@ -475,6 +475,7 @@
 
     .coreDetail {
         color: rgb(128, 128, 128);
+		line-height: 1.5
     }
 
     .coreName {

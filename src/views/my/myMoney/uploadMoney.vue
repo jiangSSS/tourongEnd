@@ -323,4 +323,11 @@
     .delete {
         width: 2rem
     }
+	.btn{
+		height: .6rem;
+		font-size: .3rem;
+	}
+	/deep/ .mu-icon{
+		font-size: .3rem
+	}
 </style>

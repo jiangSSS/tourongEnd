@@ -282,7 +282,8 @@
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        width: 4rem
+        width: 4rem;
+		line-height: 1.4;
     }
 
     .newsDesc {
@@ -308,6 +309,9 @@
         -webkit-box-orient: vertical;
         max-height: 1.55rem
     }
+	/deep/ .newsDescImg p{
+		margin: 0
+	}
 
     .weekList {
         border-bottom: .1rem solid #fafafa;
@@ -326,7 +330,7 @@
     }
 
     .submitBox {
-        padding: .1rem .3rem;
+        padding: .2rem .3rem;
     }
 
     .like {
