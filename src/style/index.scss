@@ -1,0 +1,36 @@
+  .fll {
+    float: left;
+  }
+
+  .flr {
+    float: right;
+  }
+
+  .clearfix {
+    &::after{
+      content: '';
+      display:block;
+      clear: both;
+    }
+  }
+  .pd-15 {
+    padding-bottom: 15px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+*{
+  font-family: "PingFang";
+}
+body{
+  background: fff;
+  font-size: .3rem!important;
+}
+.dian {
+  width: .15rem!important;
+  margin: .38rem .15rem;
+}
+.p2{
+  padding: .2rem
+}
